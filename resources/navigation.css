@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+nav {
+	display: none; /* This hides the navigation bar from users without JavaScript. */
+	margin:  auto;
+	width:   62em;
+}
+nav>ul {
+	border-width: 0.35em 0;
+	border-style: solid;
+	border-color: #FFF;
+	height:       2.4em;
+	list-style:   none;
+}
+nav>ul>li {
+	float:       left;
+	margin-left: 4em;
+}
+nav>ul>li>a {
+	font-size:       2em;
+	font-weight:     bold;
+	text-transform:  uppercase;
+	text-decoration: none;
+	color:           #FFF;
+}
+nav>ul>li>a:hover,
+nav>ul>li:hover>a,
+nav>ul>li:hover>a:hover {
+	color: #06F !important; /* The !important keyword ensures JavaScript does not override this. */
+}
