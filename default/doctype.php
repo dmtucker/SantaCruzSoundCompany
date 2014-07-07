@@ -6,11 +6,11 @@
 	<meta name="google-site-verification" content="SpkhXW7kA98sFjWQa8r1NCD6Mi-yicH9wAkwom9x8wg" />
 	
 	<title>Santa Cruz Sound</title>
-	<link rel="icon" href="/favicon.ico" />
+	<link rel="icon" href="favicon.ico" />
 	<link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 	
-	<link  type="text/css" rel="stylesheet" href="/resources/skin.css"  media="all" title="default" />
-	<link  type="text/css" rel="stylesheet" href="/resources/style.css" media="all" title="default" />
+	<link  type="text/css" rel="stylesheet" href="resources/skin.css"  media="all" title="default" />
+	<link  type="text/css" rel="stylesheet" href="resources/style.css" media="all" title="default" />
 	<style type="text/css">
 	* {
 		margin:  0;
@@ -26,7 +26,7 @@
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js">/* the latest jQuery library */ </script>
 	<!--script type="text/javascript" src="/resources/jquery.min.js">       /* a local backup of the jQuery library */ </script-->
-	<script type="text/javascript" src="/resources/animated-collapse.js">/* Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library */</script>
+	<script type="text/javascript" src="resources/animated-collapse.js">/* Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library */</script>
 	<script type="text/javascript">
 	function menu(that) {
 		document.getElementById("history-toggle").style.color =

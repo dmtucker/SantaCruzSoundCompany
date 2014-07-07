@@ -4,7 +4,7 @@
 
 /* defaults */
 body {
-	background:  #000 url(/resources/images/leather.png) repeat scroll center center;
+	background:  #000 url('images/leather.png') repeat scroll center center;
 	text-align:  center;
 	font-family: "Times New Roman", serif;
 	color:       #FFF;
@@ -40,7 +40,7 @@ mark {
 }
 #header {
 	padding:             2em 0 0.5em;
-	background-image:    url(/resources/images/top-left-corner.png), url(/resources/images/top-right-corner.png);
+	background-image:    url('images/top-left-corner.png'), url('images/top-right-corner.png');
 	background-position: top left, top right;
 }
 #header,
@@ -48,7 +48,7 @@ mark {
 	background-repeat: no-repeat;
 	background-size:   5em 5em,5em 5em;
 }
-img[src="/resources/images/banner.png"] {
+img[src="resources/images/banner.png"] {
 	display: block;
 	margin:  auto;
 	width:   54em;
@@ -62,12 +62,12 @@ nav,
 	height:   5em;
 	overflow: hidden;
 }
-img[src="/resources/images/speaker-tile.png"] {
+img[src="resources/images/speaker-tile.png"] {
 	width:  5em;
 	height: 5em;
 }
 #footer {
-	background-image:    url(/resources/images/bottom-left-corner.png), url(/resources/images/bottom-right-corner.png);
+	background-image:    url('images/bottom-left-corner.png'), url('images/bottom-right-corner.png');
 	background-position: bottom left, bottom right;
 }
 #footer>p {
