@@ -1,0 +1,15 @@
+RewriteEngine on
+
+Options -Indexes
+
+Redirect /history http://santacruzsound.com/index.php?view=history
+Redirect /services http://santacruzsound.com/index.php?view=services
+Redirect /contact http://santacruzsound.com/index.php?view=contact
+Redirect /directions http://santacruzsound.com/index.php?view=directions
+
+RedirectMatch 403 /default.*$
+RedirectMatch 403 /documentation.*$
+RedirectMatch 403 /.*\.htaccess$
+RedirectMatch 403 /.*\.ini$
+RedirectMatch 403 /.*\.log$
+RedirectMatch 403 /.*\.plist$
