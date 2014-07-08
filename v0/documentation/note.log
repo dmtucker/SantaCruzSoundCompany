@@ -1,2 +1,0 @@
-[08-28-11 23:03] The meta revised tag in /default/doctype.php will not pass validation, and I suspect it is because of the experimental HTML 5 validator, not the markup. When HTML 5 is officially completed, this should be given some attention. For now, I have left it commented out.
-[09-01-11 06:07] For some unknown reason, the functions "date_default_timezone_set" & "set_include_path" are undefined. The site should be able to function correctly without them for now, so I have left the lines containing them in /default/initial.php commented out.
