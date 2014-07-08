@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*defaults*/
+* {
+	border-collapse:collapse;
+}
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	margin:0px;
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	background:url('images/leather.png') repeat;
+}
+h1 {
+	margin:0px;
+}
+h2 {
+	text-align:center;
+	color:#F00;
+}
+/*generic*/
+.lh {
+	font-weight:bold;
+	list-style-type:none;
+}
+.section {
+	border-bottom:5px solid #FFF;
+	color:#FDC308;
+	letter-spacing:2px;
+	text-transform:lowercase;
+}
+/*standard*/
+#window {
+	min-height:100%;
+	background:url('images/top-left-corner.png') left top no-repeat,
+			   url('images/top-right-corner.png') right top no-repeat,
+			   url('images/bottom-right-corner.png') right bottom no-repeat,
+			   url('images/bottom-left-corner.png') left bottom no-repeat;
+}
+#main {
+	margin:auto;
+	width:1024px;
+}
+#menu {
+	border-width:5px 0px;
+	border-style:solid;
+	border-color:#FFF;"
+}
+#content {
+	padding-top:25px;
+}
+#footer {
+	color:#999;
+	text-align:center;
+}
+/*specific*/
+#menu td {
+	text-align:center;
+}
+#menu h1 {
+	text-transform:uppercase;
+}
+#menu a:link, #menu a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+#menu a:hover {
+	color:#06F;
+	text-decoration:none;
+}
