@@ -21,6 +21,6 @@ $(document).ready(
                 if ($(this).hasClass('ui-tabs-active')) activateTab($(this));
             }
         );
-        $('#map>iframe').removeClass('absent');
+        $('#map>object').removeClass('absent');
     }
 );
