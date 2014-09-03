@@ -5,7 +5,6 @@ Options -Indexes
 Redirect /history http://www.santacruzsound.com/index.html#history
 Redirect /services http://www.santacruzsound.com/index.html#services
 Redirect /contact http://www.santacruzsound.com/index.html#contact
-Redirect /hours http://www.santacruzsound.com/index.html#hours
 Redirect /directions http://www.santacruzsound.com/index.html#directions
 
 RedirectMatch 403 /.*\.htaccess$
