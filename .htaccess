@@ -2,14 +2,10 @@ RewriteEngine on
 
 Options -Indexes
 
-Redirect /history http://santacruzsound.com/index.php?view=history
-Redirect /services http://santacruzsound.com/index.php?view=services
-Redirect /contact http://santacruzsound.com/index.php?view=contact
-Redirect /directions http://santacruzsound.com/index.php?view=directions
+Redirect /history http://www.santacruzsound.com/index.html#history
+Redirect /services http://www.santacruzsound.com/index.html#services
+Redirect /contact http://www.santacruzsound.com/index.html#contact
+Redirect /hours http://www.santacruzsound.com/index.html#hours
+Redirect /directions http://www.santacruzsound.com/index.html#directions
 
-RedirectMatch 403 /default.*$
-RedirectMatch 403 /documentation.*$
 RedirectMatch 403 /.*\.htaccess$
-RedirectMatch 403 /.*\.ini$
-RedirectMatch 403 /.*\.log$
-RedirectMatch 403 /.*\.plist$

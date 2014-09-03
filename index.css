@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@import url('//fonts.googleapis.com/css?family=Permanent+Marker');
+@font-face {
+	font-family: Stencil;
+	src: url('fonts/StencilStd.otf');
+}
+
+
+/**/
+
+.marker {
+	font: normal bold 3em 'Permanent Marker', cursive;
+	color: #000;
+}
+.stencil {
+	font: normal normal 1em 'Stencil', serif;
+	color: #FFCA48;
+}
+
+/**/
+
+.absent {
+	display: none; /* This causes the element to display only when styles are disabled. */
+}
+
+/**/
+
+
+
+
+/**/
+
+body {
+	background: #000 url('images/leather.png') repeat scroll;
+	font-family: serif;
+	color: #FFF;
+}
+
+/**/
+
+#header {
+	padding-top: 1em;
+	text-align: center;
+}
+#header>h1 {
+	margin: 0;
+	height: 1em;
+	font: normal normal 5em 'Stencil', serif;
+	color: #FFCA48;
+}
+
+nav {
+	display: inline-block;
+	border-width: 0.25em 0;
+	border-style: solid;
+	border-color: #FFF;
+}
+nav>ul {
+	margin: 0;
+	list-style: none;
+}
+nav>ul>li {
+	float: left;
+	margin: 0 2em;
+}
+nav>ul>li>a {
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+}
+nav>ul>li>a:hover, nav>ul>li:hover>a, nav>ul>li:hover>a:hover {
+	color: #06F !important; /* The !important keyword ensures JavaScript does not override this. */
+}
+
+/**/
+
+#main {
+	margin: auto;
+	width: 55.55em;
+}
+
+article {
+	clear: both;
+	padding: 2em;
+	text-align: center;
+}
+article>h1 {
+	margin: 0;
+	border-bottom: 0.1em solid #FFF;
+	font: normal bold 2em;
+	color: #FFCA48;
+}
+article>h2 {
+	margin: 0;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: normal;
+	color: #999;
+}
+article>h3 {
+	margin: 1em 0 0;
+	text-align: left;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+article>p {
+	text-align: justify;
+	text-indent: 2em;
+}
+article>ul {
+	text-align: left;
+	line-height: 1.5;
+}
+article>h1,
+article>h2,
+article>h3,
+article>p,
+article>ul {
+	display: inline-block;
+	width: 40%;
+}
+article>img,
+article>figure {
+	max-width: 50%;
+}
+
+/**/
+
+#footer {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/**/
+
+
+
+
+/**/
+
+a:link,
+a:visited {
+	color: #06F;
+}
+
+/**/
+
+#speakerbox {
+	border: 0.25em ridge #333;
+	height: 5em;
+	background: #000 url('images/speaker.png') repeat-x left center;
+	background-size: 5em;
+}
+#history>img {
+	float: left;
+}
+#services>img,
+#directions>figure {
+	float: right;
+}
+#history>img,
+#services>img,
+#directions>figure {
+	border: 0.25em solid #000;
+}
+#contact {
+	min-width: 781px;
+	min-height: 416px;
+	background: transparent url('images/panel.png') no-repeat scroll center center;
+}
+#contact>address {
+	margin-top: 1em;
+	font-size: 2em;
+}
+#hours {
+	display: inline-block;
+	margin: auto;
+	min-width: 606px;
+	min-height: 177px;
+	background: transparent url('images/tape.png') no-repeat scroll center center;
+}
+#contact>#hours>div {
+	margin-top: 0.75em;
+	line-height: 0.8;
+}
+#directions>figure {
+	width: 50%;
+	height: 30em;
+}
+#map>iframe,
+#map img {
+	width: 100%;
+	height: 100%;
+}
+#footer>p {
+	margin: 0;
+	padding-top: 50px;
+}
+#footer>p a {
+	text-decoration: none;
+}
+#footer>p img {
+	vertical-align: middle;
+}
+
+/* corner images */
+
+#header {
+	background-image: url('images/corners/top-left.png'), url('images/corners/top-right.png');
+	background-position: top left, top right;
+}
+#footer {
+	background-image: url('images/corners/bottom-left.png'), url('images/corners/bottom-right.png');
+	background-position: bottom left, bottom right;
+}
+#header,
+#footer {
+	min-height: 100px;
+	background-size: 100px 100px,100px 100px;
+	background-repeat: no-repeat;
+}
+
+/* sticky footer */
+
+/* 1: Push the footer off of the screen. */
+#tabs { /* This should contain all of the body except the footer. */
+	min-height: 100%;
+}
+/* 2: Add enough space for the footer to overlap. */
+#main {  /* This should be the last least-nested element with a sibling. */
+	padding-bottom: 100px;  /* = #footer height */
+}
+/* 3: Push the footer back onto the screen. */
+#footer {
+	position: relative;  /* This removes the (off-screen) footer from the page flow. */
+	margin-top: -100px;  /* = - #footer height */
+	height: 100px;
+}
+
+/**/
