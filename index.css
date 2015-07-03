@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('//fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('http://fonts.googleapis.com/css?family=Permanent+Marker');
 @font-face {
 	font-family: Stencil;
 	src: url('fonts/StencilStd.otf');
@@ -86,20 +86,21 @@ article {
 	padding: 2em;
 	text-align: center;
 }
-article>h1 {
+article>h2 {
 	margin: 0;
 	border-bottom: 0.1em solid #FFF;
-	font: normal bold 2em;
+    font-size: 2em;
+    font-weight: bold;
 	color: #FFCA48;
 }
-article>h2 {
+article>h3 {
 	margin: 0;
 	font-size: 1.5em;
 	font-style: italic;
 	font-weight: normal;
 	color: #999;
 }
-article>h3 {
+article>h4 {
 	margin: 1em 0 0;
 	text-align: left;
 	font-variant: small-caps;
@@ -114,9 +115,9 @@ article>ul {
 	text-align: left;
 	line-height: 1.5;
 }
-article>h1,
 article>h2,
 article>h3,
+article>h4,
 article>p,
 article>ul {
 	display: inline-block;
